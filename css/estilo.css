@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../image/pizza3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.titulo{
+    font-size: 50px;
+    color: aliceblue;
+    margin-left: 150px;
+    
+}
+
+.window-notice {
+    background: rgba(33, 41, 52, .85);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+
+
+.window-notice .content {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 600px;
+    min-width: 320px !important;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+#window-notice {
+    display: none;
+}
+.boton{
+    width: 100px;
+    height: 50px;
+    align-items: center;
+
+}
